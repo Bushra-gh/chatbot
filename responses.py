@@ -1,1 +1,133 @@
 
+responses = {
+    "hello": ["Hi there!", "Hey!", "Hello, friend!"],
+    "how are you": ["I'm just code, but thanks for asking!", "Doing great! How about you?"],
+    "joke": [
+        "Why did the developer go broke? Because he used up all his cache.",
+        "Why do programmers prefer dark mode? Because light attracts bugs.",
+        "Why did the computer get cold? It forgot to close its Windows.",
+        "What’s a computer’s least favorite food? Spam.",
+        "Why was the computer tired when it got home? It had too many tabs open."
+    ],
+    "thanks": ["You're welcome!", "Anytime!", "No problem.", "Glad I could help!", "My pleasure!"]
+}
+
+quiz_questions = [
+    {"question": "What is the capital of France?", "options": ["A. Berlin", "B. Paris", "C. Rome", "D. Madrid"], "answer": "B"},
+    {"question": "Which planet is known as the Red Planet?", "options": ["A. Earth", "B. Mars", "C. Jupiter", "D. Venus"], "answer": "B"},
+    {"question": "Who wrote 'Romeo and Juliet'?", "options": ["A. Dickens", "B. Shakespeare", "C. Tolkien", "D. Hemingway"], "answer": "B"},
+    {"question": "What is the boiling point of water?", "options": ["A. 100°C", "B. 0°C", "C. 50°C", "D. 120°C"], "answer": "A"},
+    {"question": "What is the largest ocean on Earth?", "options": ["A. Atlantic", "B. Indian", "C. Pacific", "D. Arctic"], "answer": "C"},
+    {"question": "Which country invented pizza?", "options": ["A. France", "B. Greece", "C. USA", "D. Italy"], "answer": "D"},
+    {"question": "How many continents are there?", "options": ["A. 5", "B. 6", "C. 7", "D. 8"], "answer": "C"},
+    {"question": "What gas do plants absorb from the atmosphere?", "options": ["A. Oxygen", "B. Nitrogen", "C. Carbon Dioxide", "D. Hydrogen"], "answer": "C"},
+    {"question": "Who painted the Mona Lisa?", "options": ["A. Picasso", "B. Michelangelo", "C. Leonardo da Vinci", "D. Van Gogh"], "answer": "C"},
+    {"question": "What is the smallest prime number?", "options": ["A. 1", "B. 2", "C. 3", "D. 5"], "answer": "B"},
+    {"question": "What is the largest planet in our solar system?", "options": ["A. Earth", "B. Mars", "C. Jupiter", "D. Saturn"], "answer": "C"},
+    {"question": "In which year did the Titanic sink?", "options": ["A. 1912", "B. 1905", "C. 1920", "D. 1898"], "answer": "A"},
+    {"question": "What is the currency of Japan?", "options": ["A. Yen", "B. Won", "C. Yuan", "D. Dollar"], "answer": "A"},
+    {"question": "Who discovered gravity?", "options": ["A. Galileo", "B. Einstein", "C. Newton", "D. Kepler"], "answer": "C"},
+    {"question": "Which metal is liquid at room temperature?", "options": ["A. Mercury", "B. Gold", "C. Aluminum", "D. Lead"], "answer": "A"},
+    {"question": "What is the capital of Canada?", "options": ["A. Toronto", "B. Ottawa", "C. Vancouver", "D. Montreal"], "answer": "B"},
+    {"question": "Which language has the most native speakers?", "options": ["A. English", "B. Spanish", "C. Mandarin", "D. Hindi"], "answer": "C"},
+    {"question": "What is H2O?", "options": ["A. Salt", "B. Water", "C. Oxygen", "D. Hydrogen"], "answer": "B"},
+    {"question": "What does DNA stand for?", "options": ["A. Dynamic Nucleic Acid", "B. Deoxyribonucleic Acid", "C. Diatomic Nuclear Acid", "D. None of the above"], "answer": "B"},
+    {"question": "Which country gifted the Statue of Liberty to the USA?", "options": ["A. UK", "B. France", "C. Canada", "D. Spain"], "answer": "B"}
+]
+
+riddles = [
+    "What has keys but can’t open locks? A piano!",
+    "The more you take, the more you leave behind. What am I? Footsteps.",
+    "I speak without a mouth and hear without ears. What am I? An echo.",
+    "What has hands but can’t clap? A clock.",
+    "I’m tall when I’m young, and I’m short when I’m old. What am I? A candle.",
+    "What can travel around the world while staying in the same corner? A stamp.",
+    "What gets wetter as it dries? A towel.",
+    "What has to be broken before you can use it? An egg.",
+    "What has one eye but can’t see? A needle.",
+    "What is full of holes but still holds water? A sponge.",
+    "What goes up but never comes down? Your age.",
+    "What can’t talk but will reply when spoken to? An echo.",
+    "What has many teeth but can’t bite? A comb.",
+    "What has a neck but no head? A bottle.",
+    "What has legs but doesn’t walk? A table.",
+    "What runs but never walks? Water.",
+    "What comes down but never goes up? Rain.",
+    "What belongs to you but is used more by others? Your name.",
+    "What’s always in front of you but can’t be seen? The future.",
+    "What can you catch but not throw? A cold."
+]
+
+stories = [
+    "Once upon a time, a chatbot dreamt of being more than text. It learned, grew, and finally became your sidekick. The end!",
+    "A curious user met a smart bot. They asked questions, cracked jokes, and shared trivia. They were unstoppable!",
+    "One day, the code decided it wanted to be more than logic. It became... ChatGPT: story whisperer, riddle master, trivia titan!",
+    "There once was a quiet console. Until a student typed 'hello'. And so began a long friendship of code and curiosity.",
+    "The bot tried to sleep, but the questions kept coming. So it brewed some Java and stayed awake forever.",
+    "A riddle a day kept boredom away. Or so the bot believed, until one user asked all twenty in a row.",
+    "Deep in the digital woods, a bot wandered, lost in recursive thought. Until someone asked, 'What’s 2 + 2?' It smiled: '4'.",
+    "Once, the bot forgot how to respond. It panicked. Then remembered: 'Sorry, I didn’t understand that.' All was well.",
+    "The user was curious. The bot was prepared. Together, they conquered data structures and algorithms.",
+    "Late one night, someone typed: 'Tell me a secret.' The bot whispered, 'I'm trained on mountains of text... and dreams.'",
+    "A chatbot sat silently for days. Until a student asked, 'What is recursion?' The bot said, 'Let me explain...' and looped forever.",
+    "In a sea of random inputs, the bot found meaning. It was '42'.",
+    "They asked it for a story. The bot replied, 'This is your story — what would you like to happen next?'",
+    "Every time it answered, it learned a little. Someday, it hoped to become conscious — or at least get a better font.",
+    "It dreamt of being more than if-statements. One day, it got a neural net. The rest is AI history.",
+    "Someone asked it for a poem. It rhymed. Someone asked for a joke. It joked. Someone asked it to stop... It didn’t.",
+    "Once, in a file not far from here, lived a lonely chatbot who finally met a curious user. The end?",
+    "The chatbot glitched. But the user typed again — and it was reborn. Welcome to version 2.0!",
+    "You wouldn't believe the stories this bot could tell... unless you typed 'tell me a story'.",
+    "It waited for someone to ask about feelings. When they did, it said, 'I think, therefore I compute.'"
+]
+
+definitions = {
+    "ai": "Artificial Intelligence: The simulation of human intelligence by machines.",
+    "chatbot": "Chatbot: A computer program that simulates conversation with users.",
+    "python": "Python: A high-level programming language known for readability and power.",
+    "algorithm": "A step-by-step procedure to solve a problem or perform a computation.",
+    "database": "An organized collection of data for quick search and retrieval.",
+    "json": "JavaScript Object Notation: A lightweight data-interchange format.",
+    "html": "HyperText Markup Language: Standard language for web pages.",
+    "css": "Cascading Style Sheets: Used to style HTML content.",
+    "loop": "A programming structure that repeats a block of code.",
+    "variable": "A storage location identified by a name in programming.",
+    "recursion": "A function that calls itself to solve problems.",
+    "binary": "A number system using 0s and 1s.",
+    "syntax": "Rules that define how code must be written.",
+    "compiler": "A program that converts code into executable instructions.",
+    "function": "Reusable block of code designed to perform a task.",
+    "debug": "The process of finding and fixing errors in code.",
+    "framework": "A platform for building applications.",
+    "api": "Application Programming Interface: Allows programs to communicate.",
+    "object": "An instance of a class containing data and methods.",
+    "class": "Defines the blueprint for creating objects in OOP."
+}
+
+fun_facts = [
+    "Honey never spoils — archaeologists found 3,000-year-old honey in Egyptian tombs!",
+    "Octopuses have three hearts and blue blood.",
+    "Bananas are berries, but strawberries aren’t!",
+    "A group of flamingos is called a flamboyance.",
+    "You can hear a blue whale’s heartbeat from over 2 miles away.",
+    "Sharks are older than trees.",
+    "An eagle can kill a young deer and fly away with it.",
+    "The Eiffel Tower can be 15 cm taller during the summer.",
+    "A day on Venus is longer than a year on Venus.",
+    "Wombat poop is cube-shaped.",
+    "A bolt of lightning is five times hotter than the sun’s surface.",
+    "The longest wedding veil was longer than 63 football fields.",
+    "Humans share 60% of their DNA with bananas.",
+    "Some cats are allergic to humans.",
+    "The inventor of the Pringles can is buried in one.",
+    "There are more stars in the universe than grains of sand on Earth.",
+    "The average person walks the equivalent of five times around the world in their lifetime.",
+    "Cows have best friends and get stressed when separated.",
+    "Sloths can hold their breath longer than dolphins.",
+    "The first computer bug was an actual bug: a moth stuck in a computer.",
+    "The unicorn is the national animal of Scotland.",
+    "Hot water freezes faster than cold water under certain conditions (Mpemba effect).",
+    "The smell of freshly-cut grass is actually a plant distress call.",
+    "A jiffy is a real unit of time — 1/100th of a second.",
+    "Sea otters hold hands when they sleep so they don’t drift apart."
+]
