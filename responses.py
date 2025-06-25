@@ -1,5 +1,7 @@
 responses = {
     "hello": ["Hi there!", "Hey!", "Hello, friend!"],
+    "hi": ["Hello!", "Hi!", "Greetings!"],
+    "hey": ["Hey there!", "Hi!", "Hello!"],
     "how are you": ["I'm just code, but thanks for asking!", "Doing great! How about you?"],
     "joke": [
         "Why did the developer go broke? Because he used up all his cache.",
