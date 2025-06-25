@@ -2,6 +2,7 @@ responses = {
     "hello": ["Hi there!", "Hey!", "Hello, friend!"],
     "hi": ["Hello!", "Hi!", "Greetings!"],
     "hey": ["Hey there!", "Hi!", "Hello!"],
+    "who are you": ["I'm a chatbot", "your virtual assistant!", "Just a friendly bot here to help!"],
     "how are you": ["I'm just code, but thanks for asking!", "Doing great! How about you?"],
     "joke": [
         "Why did the developer go broke? Because he used up all his cache.",
