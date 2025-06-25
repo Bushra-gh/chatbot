@@ -11,4 +11,3 @@ def solve_math_expression(expr):
             return "I couldn't find a math expression to solve."
     except:
         return "I couldn't solve that math expression."
-
