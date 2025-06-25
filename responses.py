@@ -1,4 +1,3 @@
-
 responses = {
     "hello": ["Hi there!", "Hey!", "Hello, friend!"],
     "how are you": ["I'm just code, but thanks for asking!", "Doing great! How about you?"],
