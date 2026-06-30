@@ -13,7 +13,8 @@ user_memory = {
     "quiz_mode": False,
     "quiz_count": 0,
     "quiz_score": 0,
-    "quiz_start_time": None
+    "quiz_start_time": None,
+    "bot_name": "Jacob"
 }
 
 mood_responses = {
@@ -102,6 +103,21 @@ def generate_response(user_input):
         name = user_input.split("my name is")[-1].strip().capitalize()
         user_memory["name"] = name
         return f"Nice to meet you, {name}!"
+
+    if "set your name to" in user_input or "change your name to" in user_input or "your name is" in user_input and user_input.startswith(("set","change","your")):
+        if "set your name to" in user_input:
+            name = user_input.split("set your name to")[-1].strip().capitalize()
+        elif "change your name to" in user_input:
+            name = user_input.split("change your name to")[-1].strip().capitalize()
+        else:
+            name = user_input.split("your name is")[-1].strip().capitalize()
+        if name:
+            user_memory["bot_name"] = name
+            return f"Okay, my name is now {name}."
+        else:
+            return "What would you like to call me?"
+    if "your name" in user_input:
+        return f"My name is {user_memory['bot_name']}"
 
     intent = detect_intent(user_input, intents)
     if intent == "name":
