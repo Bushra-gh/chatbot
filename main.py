@@ -1,6 +1,6 @@
 from logic import generate_response, log_conversation, user_memory
 
-print("Chatbot: Hello! Ask me anything. Type 'bye' to exit.")
+print(f"Chatbot: Hello! My name is {user_memory['bot_name']}, the terminal chatbot! Ask me anything. Type 'bye' to exit.")
 
 while True:
     user_input = input("You: ")
